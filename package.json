@@ -1,0 +1,17 @@
+{
+  "name": "aws-lambda-typescript-template",
+  "version": "1.0.0",
+  "description": "template of typescript(node.js) for aws lambda",
+  "main": "index.js",
+  "author": "nobuhiro inagawa",
+  "license": "MIT",
+  "scripts": {
+    "ts": "tsc -p tsconfig.json",
+    "build": "sh ./build.sh"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.39",
+    "@types/node": "^13.1.2",
+    "typescript": "^3.7.4"
+  }
+}
